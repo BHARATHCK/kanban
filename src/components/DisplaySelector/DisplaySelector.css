@@ -1,0 +1,49 @@
+.display-selector {
+  position: relative;
+}
+
+.selector-button {
+  display: inline-flex;
+  align-items: center;
+  height: 2rem;
+  padding: 10px;
+  gap: 5px;
+  background-color: white;
+  border: 0.2px solid lightgray;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.selection-card {
+  position: absolute;
+  z-index: 999;
+  left: 1.5rem;
+  margin-top: 10px;
+  width: 200px;
+  height: 70px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.selection-card-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+select {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 5px;
+}

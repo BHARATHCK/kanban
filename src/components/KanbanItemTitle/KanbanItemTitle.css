@@ -1,0 +1,32 @@
+.layout-item-title {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.left-status-partition {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-action-partition {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.count {
+  color: gray;
+}
+
+.profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
